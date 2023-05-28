@@ -1,4 +1,4 @@
-package cl.paseodelasdelicias.microservices.currencyconversion.controller;
+package cl.cloud.app.currency.controller;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import cl.paseodelasdelicias.microservices.currencyconversion.model.CurrencyConversion;
-import cl.paseodelasdelicias.microservices.currencyconversion.service.CurrencyExchangeServiceProxy;
+import cl.cloud.app.currency.model.CurrencyConversion;
+import cl.cloud.app.currency.service.CurrencyExchangeServiceProxy;
 
 @RestController
 public class CurrencyConversionController {

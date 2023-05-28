@@ -1,4 +1,4 @@
-package cl.paseodelasdelicias.microservices.currencyconversion;
+package cl.cloud.app.currency;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
